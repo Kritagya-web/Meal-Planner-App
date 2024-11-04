@@ -1,0 +1,78 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Mealplans Route ",
+    "collectionId": "850f26f9-424f-4b28-9caf-387f5217c585",
+    "dateExported": "2024-10-06T23:48:02.096Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6adfa4ea-9445-4d29-b2f7-681f0df22c4a",
+            "colId": "850f26f9-424f-4b28-9caf-387f5217c585",
+            "containerId": "",
+            "name": "Check and Add new Meal (POST /mealplans)",
+            "url": "http://localhost:8080/mealplans/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-10-05T10:41:30.198Z",
+            "modified": "2024-10-06T23:42:15.106Z",
+            "headers": [
+                {
+                    "name": "user_id",
+                    "value": "1"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"week\": 1,\n  \"meal_plan_user_id\" : 1,\n  \"mealId\": \"1621121\",\n  \"name\": \"Keto Mango Smoothie\",\n  \"diets\": [\n    \"gluten free\",\n    \"Egg Free\",\n    \"Vegan\",\n    \"lacto ovo vegetarian\"\n  ],\n  \"image\": \"https://img.spoonacular.com/recipes/5434321-312x231.jpg\"\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "afc4a488-802f-44a3-883a-1d0bcf48ec49",
+            "colId": "850f26f9-424f-4b28-9caf-387f5217c585",
+            "containerId": "",
+            "name": "Delete a mealplan (DELETE /mealplans/:id)",
+            "url": "http://localhost:8080/mealplans/2",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-10-05T21:02:34.387Z",
+            "modified": "2024-10-06T23:47:06.940Z",
+            "headers": [
+                {
+                    "name": "user_id",
+                    "value": "1"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        }
+    ],
+    "ref": "RMMN42Lx8q9CaLD8zPCugFvgBmnDT22eTUiCiFp8lAekWpDKZKoaKrYL9pFUxMt1ElOGi3Za5pjsf7-yyHhATw"
+}

@@ -1,0 +1,54 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Meals Route Test",
+    "collectionId": "9307d558-83b8-47bf-bc5f-78d005ffd00b",
+    "dateExported": "2024-10-06T23:47:48.673Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5cedec6e-af1d-4840-a3fe-22416ea8d621",
+            "colId": "9307d558-83b8-47bf-bc5f-78d005ffd00b",
+            "containerId": "",
+            "name": "Get Meals Based upon preferences and diet (GET /meals/search)",
+            "url": "http://localhost:8080/meals/search?meal=pizza&diets=vegan",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-10-05T21:54:14.658Z",
+            "modified": "2024-10-06T22:30:32.234Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "user_id",
+                    "value": "1"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [
+                {
+                    "name": "meal",
+                    "value": "pizza",
+                    "isPath": false
+                },
+                {
+                    "name": "diets",
+                    "value": "vegan",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "Bx4unI2U9J2p_b9c4LO5iTxZtoHoLikBkD_9TvIt6hOo47TCcvmwmTfNfczrwEfp5l4qxEUHTw9g4Ef5cL_k_A"
+}

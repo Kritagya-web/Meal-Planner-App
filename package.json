@@ -1,0 +1,28 @@
+{
+  "name": "meal-planner-app",
+  "version": "1.0.0",
+  "description": "Meal Planner App created to manage meals, create and add meal plans and many more.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gh repo clone Kritagya-web/Meal-Planner-App"
+  },
+  "keywords": [
+    "meal-plan",
+    "meal"
+  ],
+  "author": "kritagya kumra",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
